@@ -1,0 +1,84 @@
+﻿Administration Linux
+
+
+Administration Système
+
+
+* User_1
+   * Détails de User_1 
+* mot de passe : “WrongMdP”
+* Doit avoir le droit root
+
+
+
+
+* User_2
+   * Détails de User_2
+* mot de passe : NotUser_1
+* Pas de droit sudo
+* Dans le Group “UserNotAdmin”
+* Peut modifier le contenur de /var/www/
+* Peut lire sur /home/User_1
+
+
+
+
+Serveur Apache
+
+
+La VM doit avoir un serveur apache qui permet d'héberger le site “lapep” sur le port 8081. Affiche le nombre d’étudiants dans cette classe.
+
+Le site “x” sur le port 80 qui affiche “x”
+
+
+QCM
+
+
+Importer le QCM depuis le pepal et pour chaque question garder la bonne réponse.
+
+
+
+Commandes 
+
+
+Créer un fichier caché “responses.txt” dans /home/user_1/ et ajouter les commandes suivantes: 
+* Une Commande “QCM” qui télécharge le QCM.  
+* Commande pour afficher la liste des utilisateurs du système.
+* Commande pour exécuter ls en tant que User_1
+* Commande pour compter le nombre de mot contenu dans QCM.txt
+* Commande pour récupérer toutes les IP qui ont tenté ou eu une connexion SSH.
+* LA commande interdite qui supprime tout.
+
+
+Edition de fichier en bash
+
+Ecrire un script bash /home/user_1/myPasswdFile.sh qui execute les commandes suivantes :
+* Une commande qui copie /etc/passwd dans /home/User_1 avec le nom mypasswd
+* Une commande qui remplace les '/' par des '\'
+* Une commande qui affiche le HomeDirectory de chaque ligne
+* Une commande qui ajoute le nom d'utilisateur associé à l'UID au fichier.
+
+
+
+La sauvegarde 
+
+
+Écrire un script bash appelé SaveTheServer.sh qui permet de sauvegarder l’environnement et l'envoyé sur pepal
+
+
+ Les dossiers et fichier à sauvegarder sont :
+* /etc
+* /var
+* /home
+* SaveTheServer.sh
+* RestoreTheServer.sh
+* myPasswdFile.sh
+* QCM.txt
+* responses.txt
+Nommé le fichier de sauvegarde “prenom_DD-MM-YYYY_backup.tar”
+
+
+La restauration
+
+
+Écrire un script bas appelé RestoreTheServer.sh qui permet de prendre la sauvegarde stockée sur le serveur et restaure les dossiers et fichiers contenue.

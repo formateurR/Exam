@@ -1,0 +1,263 @@
+﻿QCM - Administration Linux
+
+
+
+
+Question 1: Quelle commande affiche le contenu d'un fichier texte dans le terminal ?
+
+
+a) `cat`
+b) `ls`
+c) `mkdir`
+d) `mv`
+
+
+Question 2: Comment changer le mot de passe d'un utilisateur en tant qu'administrateur ?
+
+
+a) `passwd`
+b) `usermod`
+c) `chpasswd`
+d) `changeuser`
+
+
+Question 3: Comment pouvez-vous afficher les fichiers cachés dans un répertoire en utilisant la commande `ls` ?
+
+
+a) `ls -h`
+b) `ls -l`
+c) `ls -a`
+d) `ls -s`
+
+
+Question 4: Quelle commande permet de créer un lien symbolique vers un fichier ou un répertoire ?
+
+
+a) `ln -s`
+b) `symfile`
+c) `link -s`
+d) `mklink`
+
+
+Question 5: Comment pouvez-vous rediriger la sortie standard (stdout) d'une commande vers un fichier ?
+
+
+a) `>`
+b) `<`
+c) `|`
+d) `&`
+
+
+Question 6: Comment pouvez-vous tuer un processus en utilisant son numéro de processus (PID) ?
+
+
+a) `kill`
+b) `terminate`
+c) `stop`
+d) `endprocess`
+
+
+Question 7: Quelle commande permet d'installer un nouveau logiciel à partir des dépôts sous Debian/Ubuntu ?
+
+
+a) `install`
+b) `yum`
+c) `apt-get`
+d) `pkg-install`
+
+
+Question 8: Comment pouvez-vous créer une archive tar.gz à partir d'un répertoire ?
+
+
+a) `tar -czvf archive.tar.gz /chemin/vers/repertoire`
+b) `zip -r archive.zip /chemin/vers/repertoire`
+c) `compress /chemin/vers/repertoire`
+d) `gzip -t archive.tar.gz`
+
+
+Question 9: Quelle commande vous permet de surveiller l'utilisation de la mémoire en temps réel ?
+
+
+a) `top`
+b) `memwatch`
+c) `monitor-mem`
+d) `check-memory`
+
+
+Question 10: Comment renommez-vous un fichier en utilisant la commande `mv` ?
+
+
+a) `mv nom_fichier nouveau_nom`
+b) `rename nom_fichier nouveau_nom`
+c) `mv fichier -nouveau_nom`
+d) `mv nom_fichier /nouveau_nom`
+
+
+Question 11: Quelle commande permet de lister tous les utilisateurs du système ?
+
+
+a) `users`
+b) `listusers`
+c) `who`
+d) `cat /etc/passwd`
+
+
+Question 12: Comment copiez-vous un répertoire récursivement en conservant les attributs ?
+
+
+a) `cp -a source destination`
+b) `copy -r source destination`
+c) `cp -r source -d destination`
+d) `xcopy source destination`
+
+
+Question 13: Comment pouvez-vous éditer le fichier `monfichier.txt` en utilisant l'éditeur de texte `nano` ?
+
+
+a) `nano monfichier.txt`
+b) `edit monfichier.txt`
+c) `open monfichier.txt`
+d) `vim monfichier.txt`
+
+
+
+
+
+
+
+
+Question 14: Quelle commande permet d'afficher la liste des disques et partitions sur votre système ?
+
+
+a) `partlist`
+b) `disk -l`
+c) `fdisk -l`
+d) `showpartitions`
+
+
+Question 15: Comment pouvez-vous ajouter un utilisateur à un groupe existant ?
+
+
+a) `adduser utilisateur groupe`
+b) `useradd -G groupe utilisateur`
+c) `usermod -a -G groupe utilisateur`
+d) `groupadd -u utilisateur groupe`
+
+
+Question 16: Quelle commande permet de supprimer récursivement un répertoire et son contenu ?
+
+
+a) `rmdir`
+b) `rm -r`
+c) `delete -r`
+d) `del -r`
+
+
+Question 17: Comment pouvez-vous rechercher un fichier dans tout le système de fichiers ?
+
+
+a) `locate`
+b) `search`
+c) `find`
+d) `grep`
+
+
+
+Question 18: Comment rediriger la sortie d'une commande vers l'entrée d'une autre commande ?
+
+
+a) `|`
+b) `>`
+c) `<`
+d) `&`
+
+
+Question 19: Comment pouvez-vous surveiller les journaux système en temps réel ?
+
+
+a) `tail -f /var/log/syslog`
+b) `watch /var/log/syslog`
+c) `logs -t /var/log/syslog`
+d) `syslog -f`
+
+
+Question 20: Quelle commande permet de monter un système de fichiers externe ?
+
+
+a) `mount`
+b) `attach`
+c) `link`
+d) `fs-mount`
+
+Question 21: Quel est le rôle principal de systemd dans un système Linux moderne ?
+
+a) Gérer les tâches planifiées
+b) Gérer les processus et les services
+c) Gérer l'initialisation du système
+d) Gérer les disques durs
+
+Question 22: Quel est le rôle de Cron dans un système Linux ?
+
+a) Gérer les processus au démarrage
+b) Gérer les disques durs
+c) Gérer les services système
+d) Planifier des tâches périodiques
+
+Question 23: Quel est le processus d'initialisation classique de Linux, connu sous le nom de « init » ?
+
+a) initd
+b) systemd
+c) rc.local
+d) initctl
+
+Question 24: Quelle commande permet de planifier des tâches avec Cron en éditant la table Cron de l'utilisateur actuel ?
+
+a) crontab -l
+b) crontab -e
+c) cronedit
+d) cronjob
+
+Question 25: Quel est le fichier de configuration principal de systemd qui décrit les unités de service ?
+
+a) /etc/systemd/system.conf
+b) /etc/systemd/init.d
+c) /etc/systemd/system.target
+d) /etc/systemd/systemd.conf
+
+Question 26: Quelle commande permet de redémarrer le service SSH avec systemd ?
+
+a) systemctl restart ssh
+b) service restart ssh
+c) systemctl ssh restart
+d) systemctl restart sshd
+
+Question 27: Comment peut-on activer un service pour qu'il démarre automatiquement au démarrage avec systemd ?
+
+a) systemctl activate service-name
+b) systemctl enable service-name
+c) systemctl start service-name
+d) systemctl autostart service-name
+
+Question 28: Quelle est la première unité de systemd qui est exécutée au démarrage du système ?
+
+a) network.target
+b) init.target
+c) systemd.target
+d) default.target
+
+Question 29: Quelle commande peut être utilisée pour afficher les informations de journalisation (logs) des services gérés par systemd ?
+
+a) journalctl
+b) syslog
+c) systemd-log
+d) logwatch
+
+Question 30: Quelle est la différence fondamentale entre systemd et le système d'initialisation classique "init" de Linux ?
+
+a) systemd est utilisé pour le démarrage, tandis qu'init gère les services.
+b) systemd et init sont essentiellement identiques en termes de fonctionnalités.
+c) systemd est un gestionnaire de système, tandis qu'init est uniquement responsable de l'initialisation.
+d) init est un outil graphique, tandis que systemd est en ligne de commande.
+
+
+Assurez-vous de répondre aux questions du QCM en fonction de vos connaissances.
